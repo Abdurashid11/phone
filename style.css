@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.headerr{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.mani{
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px 90px 0px;
+}
+.img1{
+    margin: 0px 850px 0px 0px;
+}
+.mani ul{
+    display: flex;
+    gap: 40px;
+    margin: 0px 41px 0px 0px;
+}
+.main ul li{
+    display: flex;
+}
+.mani button{
+    width: 173px;
+    height: 48px;
+    border-radius: 24px;
+    background-color: #BA4270;
+    border: 1px solid #BA4270;
+    font-size: 15px;
+    color: white;
+}
+
+.main{
+    max-width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+.main h1{
+    max-width: 546px;
+    max-height: 345px;
+    font-size: 72px;
+    color: #36536B;
+}
+.main img{
+    max-width: 343px;
+    height: 500px;
+}
+
+@media (max-width: 768px) {
+    .main{
+        flex-direction: column-reverse;
+    }
+    .main img{
+        width: 159px;
+        height: 300px;
+    }
+    .main h1{
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 56px;
+    } 
+}
+
+.section{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.div2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.h1p h1{
+    max-width: 546px;
+    max-height: 345px;
+    font-size: 72px;
+    padding: 0px 0px 40px 0px;
+    color: #36536B;
+}
+.h1p p{
+    font-size: 15px;
+    color: #6C8294;
+}
+
+@media (max-width: 768px) {
+    .section{
+        margin: 0px 0px 0px 300px;
+    }
+    .div2{
+        flex-direction: column;
+    }
+    .div2 img{
+        width: 410px;
+        height: 278px;
+    }
+    .h1p h1{
+        font-size: 48px;
+    } 
+}
+
+
+.div3{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+.
+.imgp{
+    width: 300px;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #36536B;
+}
+
+@media (max-width: 758px) {
+    .div3{
+        margin: 0px 500px 0px 300px;
+    }
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    width: 1440px;
+    height: 100px;
+    background-color: #1B262F;
+}
+footer img{
+    margin: 0px 15px 0px 50px;
+}
+footer ul{
+    display: flex;
+    color: #FBFCFE;
+    margin: 0px 400px 0px 0px;
+}
+.final{
+    display: flex;
+}
+
+@media (max-width: 375px) {
+    .idv3{
+        display: none;
+    }
+}
